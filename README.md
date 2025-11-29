@@ -33,7 +33,7 @@ This project processes IoT sensor data (temperature & humidity) in real-time, co
 
 ## **Screenshots**
 
-### Docker PostgreSQL Setup
+### Docker Setup
 ![Docker PostgreSQL](assets/docker_postgress_creation.png)
 
 ### Kafka Topic Creation
@@ -42,7 +42,7 @@ This project processes IoT sensor data (temperature & humidity) in real-time, co
 ### Spark Processing Batches
 ![Processing Batches](assets/processing_batch_ex.png)
 
-### Data Verification in PostgreSQL
+### Manual Data Verification in PostgreSQL/Optional
 ![Database Check](assets/manual_check_thetable_is_filled.png)
 
 ### Grafana Dashboard
@@ -143,7 +143,7 @@ py scripts\kafka_producer.py
 1. Open Grafana: http://localhost:3000 (admin/admin)
 2. Add PostgreSQL data source (host: `postgres-db:5432`)
 3. Import dashboard from `grafana/dashboard.json`
-4. Watch live data flowing! 📊
+4. Watch live data flowing! 
 
 ---
 
@@ -198,19 +198,6 @@ docker exec -it <kafka-container> kafka-console-consumer --bootstrap-server loca
 # Check PostgreSQL data
 docker exec -it postgres-db psql -U postgres -d sensors -c "SELECT COUNT(*) FROM sensor_metrics;"
 ```
-
----
-
-## **What You'll Learn**
-
-Apache Spark Structured Streaming  
-Kafka message streaming & topic management  
-Time-windowed aggregations  
-JDBC integration with Spark  
-Docker Compose orchestration  
-Real-time dashboarding with Grafana  
-Scala programming for big data  
-Production-ready streaming architecture  
 
 ---
 
