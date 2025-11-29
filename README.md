@@ -22,12 +22,12 @@ This project processes IoT sensor data (temperature & humidity) in real-time, co
 
 ##  **Features**
 
-Real-time stream processing with Apache Spark  
-Windowed aggregations (10-second tumbling windows)  
-Fault-tolerant with Kafka buffering & Spark checkpointing  
-Time-series data storage in PostgreSQL  
-Live Grafana dashboards with auto-refresh  
-Scalable architecture ready for production  
+🔹 Real-time stream processing with Apache Spark  
+🔹 Windowed aggregations (10-second tumbling windows)  
+🔹 Fault-tolerant with Kafka buffering & Spark checkpointing  
+🔹 Time-series data storage in PostgreSQL  
+🔹 Live Grafana dashboards with auto-refresh  
+🔹 Scalable architecture ready for production  
 
 ---
 
