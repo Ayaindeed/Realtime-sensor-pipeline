@@ -1,0 +1,4 @@
+# Python Requirements for Kafka Producer
+# Install with: pip install -r requirements.txt
+
+kafka-python==2.0.2

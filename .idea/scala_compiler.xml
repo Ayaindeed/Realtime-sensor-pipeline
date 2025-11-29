@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <option name="separateProdTestSources" value="true" />
+    <profile name="sbt 1" modules="spark-kafka-grafana,spark-kafka-grafana.main,spark-kafka-grafana.test,spark-kafka-streaming,spark-kafka-streaming.main,spark-kafka-streaming.test" />
+  </component>
+</project>
