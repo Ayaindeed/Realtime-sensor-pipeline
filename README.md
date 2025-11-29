@@ -34,19 +34,19 @@ This project processes IoT sensor data (temperature & humidity) in real-time, co
 ## **Screenshots**
 
 ### Docker PostgreSQL Setup
-![Docker PostgreSQL](.idea/assets/docker_postgress_creation.png)
+![Docker PostgreSQL](assets/docker_postgress_creation.png)
 
 ### Kafka Topic Creation
-![Topic Creation](.idea/assets/topic_creation.png)
+![Topic Creation](assets/topic_creation.png)
 
 ### Spark Processing Batches
-![Processing Batches](.idea/assets/processing_batch_ex.png)
+![Processing Batches](assets/processing_batch_ex.png)
 
 ### Data Verification in PostgreSQL
-![Database Check](.idea/assets/manual_check_thetable_is_filled.png)
+![Database Check](assets/manual_check_thetable_is_filled.png)
 
 ### Grafana Dashboard
-![Grafana Panel](.idea/assets/panel.png)
+![Grafana Panel](assets/panel.png)
 
 ---
 
